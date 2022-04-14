@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home__1"
+    tools:context=".Discover">
+
+    <Button
+        android:id="@+id/ta"
+        android:layout_width="139dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/_086d902f25af_image_"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#BF3535"
+        android:text="BEST SONGS IN SG!"
+        android:textColor="#050404"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="414dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/songar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Madison Beer"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/songti3"
+                app:layout_constraintTop_toBottomOf="@+id/songti3" />
+
+            <TextView
+                android:id="@+id/songti3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reckless"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/ML3"
+                app:layout_constraintTop_toBottomOf="@+id/ML3" />
+
+            <TextView
+                android:id="@+id/songar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Ed Sheeran"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/ML1"
+                app:layout_constraintTop_toBottomOf="@+id/songti1" />
+
+            <TextView
+                android:id="@+id/songti1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bad Habits"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/ML1"
+                app:layout_constraintTop_toBottomOf="@+id/ML1" />
+
+            <Button
+                android:id="@+id/ML2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/group_211"
+                android:onClick="Selection"
+                app:layout_constraintStart_toEndOf="@+id/ML1"
+                app:layout_constraintTop_toTopOf="@+id/ML1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ML1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/group_2"
+                android:onClick="Selection"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ML3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/group_277"
+                android:onClick="Selection"
+                app:layout_constraintStart_toEndOf="@+id/ML2"
+                app:layout_constraintTop_toTopOf="@+id/ML2" />
+
+            <TextView
+                android:id="@+id/songti2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sucker"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/ML2"
+                app:layout_constraintTop_toBottomOf="@+id/ML2" />
+
+            <TextView
+                android:id="@+id/songar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Jones Brothers"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/ML2"
+                app:layout_constraintTop_toBottomOf="@+id/songti2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/discoverbutt"
+        android:layout_width="48dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/group_7316"
+        android:onClick="todiscover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/homebutt"
+        android:layout_width="48dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/group_7317"
+        android:onClick="tohome"
+        app:layout_constraintStart_toEndOf="@+id/discoverbutt"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/profilebutt"
+        android:layout_width="48dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/group_7318"
+        android:onClick="toprofile"
+        app:layout_constraintStart_toEndOf="@+id/homebutt"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#BF3535"
+        android:text="TOP ALBUM"
+        android:textColor="#050404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Listen to KSI'S new Album"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

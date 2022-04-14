@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start__1"
+    tools:context=".Start" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="123dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="96dp"
+        android:background="#581845"
+        android:onClick="nextPage"
+        android:shadowColor="#171515"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="#FFC300"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconPadding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+

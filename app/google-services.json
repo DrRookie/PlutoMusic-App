@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005089907105",
+    "project_id": "pluto-8eea0",
+    "storage_bucket": "pluto-8eea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005089907105:android:077df09e6a4757a3692be0",
+        "android_client_info": {
+          "package_name": "com.comtproject.plutomusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005089907105-vn2asgaj824aktdmft3pc6f8tja4nvvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbSoOcrXBcFgP55R_an0JQoPyxal9M_Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005089907105-vn2asgaj824aktdmft3pc6f8tja4nvvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
